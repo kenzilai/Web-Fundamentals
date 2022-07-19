@@ -1,0 +1,31 @@
+button{
+    margin: 5px;
+}
+
+.search {
+    width: 100px;
+    height: 20px;
+    color:darkcyan;
+    border: 1px solid darkcyan ;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.add {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    background-color: mediumaquamarine;
+    border: none;
+    border-radius: 50%;
+}
+
+.create_account {
+    width: 140px;
+    height: 25px;
+    font-size: 13px;
+    color: white;
+    background-color: royalblue;
+    box-shadow: 3px 2px black;
+}

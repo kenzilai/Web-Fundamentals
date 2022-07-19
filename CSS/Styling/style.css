@@ -1,0 +1,34 @@
+body {
+    font-family: cursive;
+}
+
+/* MyCloud styles */
+h1 {
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    margin: 
+}
+span{
+    color: cyan;
+}
+
+/* Other Text */
+h2 {
+    background-color: rebeccapurple;
+    font-weight: lighter;
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+h3 {
+    background-color:mediumslateblue;
+    font-weight: lighter;
+    text-align: right;
+    text-decoration: underline;
+}
+
+p{
+    margin: 20px;
+}
