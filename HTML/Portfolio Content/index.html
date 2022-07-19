@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comic+Neue">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+        <title>Portfolio</title>
+    </head>
+    <style>
+        body {
+            font-family: "Comic Neue";
+            font-weight: normal;
+        }
+        h4 {
+            margin: 1px;
+            font-weight: bold;
+        }
+        .wrapper .icon{
+            position: relative;
+            background-color: #ffffff;
+            border-radius: 50%;
+            margin: 5px;
+            line-height: 10px;
+            font-size: 25px;
+            display: inline-block;
+            align-items: center;
+            cursor: pointer;
+            color: #333;
+            text-decoration: none;
+        }
+        .wrapper .social {
+            position: absolute;
+            top: 0;
+            line-height: 1.5;
+            font-size: 14px;
+            background-color: #ffffff;
+            color: #ffffff;
+            padding: 5px 8px;
+            border-radius: 5px;
+            opacity: 0;
+            pointer-events: none;
+        }
+        .languages {
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        tr, th, td {
+            border: 4px solid black;
+        }
+        td:first-child, th:first-child {
+            border-left-color: white;
+            
+        }
+        td:last-child, th:last-child {
+            border-right-color: white;
+        }
+        .row1 {
+            border-top-color: white;
+        }
+        .row4 {
+            border-bottom-color: white;
+        }
+        .contact {
+                margin-top: 10px;
+                margin-bottom: 10px;
+        }
+        input {
+        font-family: "Comic Neue";
+            font-weight: bold;
+            border: 2px solid;
+            height: 20px;
+        }
+        textarea {
+            margin: 8px;
+            vertical-align: text-top;
+            font-family: "Comic Neue";
+            font-weight: bold;
+            border: 2px solid;
+        }
+        .button {
+            font-family: "Comic Neue";
+            font-weight: bold;
+            border: 2px solid;
+            box-shadow: 3px 2px black;
+            background-color: white;
+            height: 25px;
+            width: 110px;
+        }
+        
+        .button:hover {
+            color: #fff;
+            background-color: #909090;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .button:active {
+            color: #fff;
+            background-color: #909090;
+            border: none;
+            box-shadow: 3px 2px rgb(80, 80, 80);
+            transform: translateY(1px);
+            cursor: pointer;
+        }
+    </style>
+    <body>
+        <h1>Kenzi Lai</h1>
+        <img src="images/Shiba Inu.jfif" alt="My Photo" width="128" height="128">
+        <div class="wrapper">
+            <a href="#" class="icon github">
+            <div class="social">Github</div>
+            <span><i class="fa fa-github"></i></span>
+            <div class="social">Linkedin</div>
+            <span><i class="fa fa-linkedin-square"></i></span>
+            <div class="social">Email</div>
+            <span><i class="fa fa-envelope"></i></span>
+            </a>
+        </div>
+        <Section>
+            <h4>Technologies</h4>
+            <table class="languages">
+                <thead>
+                    <tr>
+                        <th class="row1">Front-End</th>
+                        <th class="row1">Python</th>
+                        <th class="row1">JavaScript</th>
+                        <th class="row1">Database</th>
+                        <th class="row1">Concepts</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="row2">HTML5</td>
+                        <td class="row2">Django</td>
+                        <td class="row2">Express</td>
+                        <td class="row2">MySQL</td>
+                        <td class="row2">AJAX</td>               
+                    </tr>
+                    <tr>
+                        <td class="row3">CSS3</td>
+                        <td class="row3">Flask</td>
+                        <td class="row3">Mongoose</td>
+                        <td class="row3">MongoDB</td>
+                        <td class="row3">OOP</td>               
+                    </tr>
+                    <tr>
+                        <td class="row4">Bootstrap</td>
+                        <td class="row4">Unittest</td>
+                        <td class="row4">React</td>
+                        <td class="row4"></td>
+                        <td class="row4">Rest</td>               
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+        </Section>
+        <section>
+            <h4>Ninja Man</h4>
+            <div>A Pac-Man style web game made in HTML/CSS - <a href="https://github.com/kenzilai/Pre-Bootcamp-Web-Development/blob/main/Pre-Bootcamp%20Projects/Ninja%20Man/Ninjaman.html">code</a> | <a href="https://github.com/kenzilai">deployed</a></div>
+        </section>
+        <section>
+            <h4 class="contact">Contact Me</h4>
+            <label>First Name: <input type="text" name="name" placeholder="A-Z, a-z and Space" oninput="this.value=this.value.replace(/[^A-Za-z\s]/g,'');"></label>
+            <label>Email <input type="email" name="email" placeholder="Your Email"></label>
+            <br>
+            <label>Message: </label><textarea type="textarea" name="message" placeholder="Send Me A Message."></textarea>
+        </section>
+        <button class="button" type="submit">Send Message</button>
+    </body>
+</html>

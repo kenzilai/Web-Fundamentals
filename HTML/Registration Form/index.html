@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comic+Neue">
+    <title>Registration Form</title>
+</head>
+
+<style>
+    body {
+        font-family: "Comic Neue";
+        font-weight: bold;
+    }
+    
+    div {
+        margin: 0px 0px 8px 0px
+    }
+    
+    input {
+        font-family: "Comic Neue";
+        font-weight: bold;
+        border: 2px solid;
+        height: 20px;
+    }
+    
+    input[type="radio"]{
+        vertical-align: sub;
+    }
+    
+    input[type="checkbox"]{
+        vertical-align: middle;
+    }
+    
+    textarea {
+        font-family: "Comic Neue";
+        font-weight: bold;
+        border: 2px solid;
+    }
+    
+    select {
+        font-family: "Comic Neue";
+        font-weight: bold;
+        border: 2px solid;
+    }
+
+    .button {
+        font-family: "Comic Neue";
+        font-weight: bold;
+        border: 2px solid;
+        box-shadow: 3px 2px black;
+        background-color: white;
+        height: 25px;
+        width: 110px;
+    }
+    
+    .button:hover {
+        color: #fff;
+        background-color: #909090;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .button:active {
+        color: #fff;
+        background-color: #909090;
+        border: none;
+        box-shadow: 3px 2px rgb(80, 80, 80);
+        transform: translateY(1px);
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <h1>Registration Form</h1>
+    <form action="#" method=""post>
+        <div>
+            <label>First Name: * <input type="text" name="first_name" placeholder="A-Z, a-z and Space" oninput="this.value=this.value.replace(/[^A-Za-z\s]/g,'');" required></label>
+        </div>
+        <div>
+            <label>Last Name: * <input type="text" name="last_name" placeholder="A-Z, a-z and Space" oninput="this.value=this.value.replace(/[^A-Za-z\s]/g,'');" required></label>
+        </div>
+        <div>
+            <label>Email Address: * <input type="email" name="email" placeholder="Your Email" required></label>
+        </div>
+        <div>
+            <Label>Password: * <input type="password" name="password" placeholder="Your Password" required></Label>
+        </div>
+        <div>
+            <Label>Confirm Password: * <input type="password" name="password" placeholder="Confirm Password" required></Label>
+        </div>
+        <div>
+            <label>Birthday: * <input type="date" name="dob" required></label>
+        </div>
+        <div>
+            <label for="notAnswer">Gender Identity:</label>
+            <div>
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+                <label><input type="radio" name="gender" value="nonBinary"> Non-binary</label>
+                <label><input type="radio" name="gender" value="notAnswer" id="notAnswer"> I prefer not to answer</label>
+            </div>
+        </div>
+        <div>
+            <label for="about">A short description about myself:</label>
+            <div>
+                <textarea id="about" name="comment" cols="40" rows="3" placeholder="About Me..."></textarea>
+            </div>
+        </div>
+        <div>
+            <label>Favorite Language:</label>
+            <select>
+                <option>Select--</option>
+                <option>Python</option>
+                <option>JavaScript</option>
+                <option>Java</option>
+                <option>C#</option>
+                <option>C/C++</option>
+            </select>
+        </div>
+        <div>
+            <label><input type="checkbox" name="accept" checked>Yes, I would like to receive periodic email updates</label>
+        </div>
+        <div>
+            <button class="button" type="submit">Create Account</button>
+        </div>
+        <div>* Indicates a required field</div>
+    </form>
+</body>
+</html>
