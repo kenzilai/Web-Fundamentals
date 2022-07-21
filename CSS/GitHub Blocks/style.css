@@ -1,0 +1,47 @@
+h1 {
+    font-family: Arial;
+    text-align: center;
+    color: darkslategray;
+}
+
+h4 {
+    font-family: Arial;
+    text-align: center;
+    color: gray;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+img {
+    width: 256px;
+    height: 256px;
+}
+
+.row1 {
+    background-color: skyblue;
+    width: 900px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.row2 {
+    background-color:lightcoral;
+    width: 900px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px
+}
+
+.row3 {
+    background-color: skyblue;
+    width: 900px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px
+}

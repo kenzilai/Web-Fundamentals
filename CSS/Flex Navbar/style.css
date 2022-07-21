@@ -1,0 +1,39 @@
+body {
+    font-family: "Roboto", arial;
+    width: auto;
+    }
+
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: slategrey;
+}
+
+.nav-title {
+    flex: 1;
+    margin: auto 20px ;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    list-style: none;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+}
+
+.btn {
+    width: 100px;
+    color: white;
+    background-color:lightseagreen;
+    margin:auto 20px;
+    padding: 5px;
+    box-shadow: 5px 5px black;
+}
