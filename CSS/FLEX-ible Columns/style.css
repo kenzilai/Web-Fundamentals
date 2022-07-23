@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-start;
+}
+
+.col {
+    flex: 1;
+    background-color: cadetblue;
+    color:white;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.col:last-child {
+    margin-right: 0px;
+}
+
+.col-2 {
+    flex: 2;
+    background-color: cadetblue;
+    color:white;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    padding: 20px;
+}
+
+.col-3 {
+    flex: 3;
+    background-color: cadetblue;
+    color:white;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    padding: 20px;
+}

@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Comic Neue", sans-serif;
+    font-weight: 600;
+    display: flex;
+    flex: auto;
+    flex-flow: column wrap;
+}
+
+/* header below*/
+header {
+    height: 65px;
+    margin: 40px 100px;
+    background-color: darkcyan;
+}
+
+figure {
+    width: 90px;
+    height: 90px;
+    margin: 20px;
+    border-radius: 100%;
+    border: 3px solid gray;
+    display: flex;
+    float: left;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 5px solid #ffffff;
+}
+/* header above*/
+
+/* main below */
+main {
+    padding: 20px;
+}
+
+.name {
+    font-size: 40px;
+    margin: auto 100px;
+}
+
+.location {
+    margin: auto 100px;
+    font-size: 20px;
+}
+
+.coordinate {
+    width: 10px;
+    height: 15px;
+}
+
+.headline {
+    margin: auto 100px;
+}
+
+.about {
+    margin: auto 100px;
+}
+/* main above*/
+
+/* footer below */
+.gear {
+    width: 20px;
+    height: 20px;
+    margin-left: 120px;
+}
+
+.edit-profile {
+    margin-left: 10px;
+    color:dodgerblue;
+}
