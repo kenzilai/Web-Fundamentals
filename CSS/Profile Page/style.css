@@ -1,0 +1,296 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Comic Neue", sans-serif;
+    font-weight: bold;
+    width: auto;
+    position: relative;
+    }
+
+/* Navbar Below */
+.nav {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 50px;
+}
+
+.nav-title {
+    display: flex;
+    flex: 1;
+    color: white;
+    justify-content: flex-end;
+}
+
+.nav-links {
+    display: flex;
+    flex: 1;
+    list-style: none;
+    justify-content: flex-start;
+    margin:auto 20px;
+}
+
+li {
+    margin: 10px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-button {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.btn {
+    width: 70px;
+    background-color:#1ac;
+    color: white;
+    padding: 1px;
+}
+/* Navbar Above */
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.information {
+    justify-content: flex-end;
+}
+
+/* User Card Below */
+.user-card {
+    width: 400px;
+    margin: 30px 15px 30px 15px;
+}
+
+.user-card header {
+    position: relative;
+    height: 70px;
+    background-color: #1ac;
+}
+
+.user-card section {
+    position: relative;
+    border: 3px solid #ddd;
+    border-top: none;
+    padding: 40px 20px 20px 20px;
+}
+
+.user-card figure {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin: 30px 0px 20px 20px;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+}
+
+.user-card header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 10px;
+}
+
+.location img {
+    width: 10px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.user-card p {
+    margin-right: 10px;
+}
+
+.user-card footer {
+    margin-top: 10px;
+    align-content: center;
+    justify-content: center;
+}
+
+.user-card footer img {
+    width: 15px;
+    height: 15px;
+}
+/* User Card Above */
+
+/* Education Card Below */
+.education-card {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 30px 15px 30px 15px;
+}
+
+.education-card header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    height: 50px;
+    color: white;
+    background-color: #333;
+    padding-left: 20px;
+}
+
+.education-card section {
+    border: 3px solid #ddd;
+    border-top: none;
+    padding: 10px 20px 20px 20px;
+}
+
+.education-card p span {
+    color: gray;
+}
+
+.education-card p {
+    margin: 10px 10px 10px 0px;
+}
+/* Education Card Above */
+
+
+/* Request Card Below */
+.request-card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 30px;
+    border: 3px solid #ddd;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 30px 15px 30px 15px;
+}
+
+.request-card header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    height: 50px;
+    color: white;
+    background-color: #333;
+    padding-left: 20px;
+}
+
+.request-card section {
+    border: 3px solid #ddd;
+    border-top: none;
+    border-bottom: none;
+    display: inline-flex;
+    flex: 1;
+    align-items: center;
+    padding: 5px 10px 5px 0px;
+}
+
+.connection-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.request-card p {
+    flex: 1;
+    white-space: nowrap;
+}
+
+.yes-no {
+    display: flex;
+}
+
+.yes, .no {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.yes {
+    margin-right: 5px;
+}
+/* Request Card Above */
+
+/* Connection Card Below */
+.connection-card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 30px 15px 30px 15px;
+}
+
+.connection-card header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    height: 50px;
+    color: white;
+    background-color: #333;
+    padding-left: 20px;
+}
+
+.connection-card section {
+    border: 3px solid #ddd;
+    border-top: none;
+    border-bottom: none;
+    display: inline-flex;
+    flex: 1;
+    align-items: center;
+    padding: 5px 10px 5px 0px;
+}
+
+.view-more {
+    display: flex;
+    border: 3px solid #ddd;
+    align-items: center;
+    flex: 1;
+    padding: 10px;
+}
+
+.view-more a {
+    flex: 1;
+}
+
+.connection-avatar {
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.connection-card p {
+    align-items: center;
+    justify-content: center;
+}
+/* Connection Card Above */
