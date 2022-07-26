@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Comic Neue", sans-serif;
+    font-weight: bold;
+    width: auto;
+    position: relative;
+}
+
+/* Navbar Below */
+.nav-header{
+    display: flex;
+    top: 0px;
+    position: sticky;
+    justify-content: center;
+}
+
+.nav-header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ddd;
+    padding: 15px;
+    width: 600px;
+}
+.nav-header h1 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-header input {
+    width: 300px;
+}
+
+.nav-header button {
+    width: 70px;
+    background-color:#38e;
+    color: #fff;
+    box-shadow: 3px 3px black;
+    padding: 3px;
+}
+
+.nav-header button:hover {
+    width: 70px;
+    color: #fff;
+    background-color: rgb(0, 115, 255);
+    cursor: pointer;
+}
+
+.nav-header button:active {
+    width: 70px;
+    background-color: #38e;
+    box-shadow: none;
+    transform: translate3d(2px,2px,1px);
+    cursor: pointer;
+}
+/* Navbar Above */
+
+main {
+    display: flex;
+    top: 0px;
+    justify-content: center;
+    width: 630px;
+    margin: 0px auto;
+}
+
+/* Content Below */
+.content-section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.definition-card {
+    display: flex;
+    border: 3px solid #000;
+    margin: 20px 0px 0px;
+}
+
+.definition-card div {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px 20px 10px;
+}
+
+.noun {
+    width: 100px;
+}
+
+.noun h2 {
+    font-size: 30px;
+}
+
+.noun h3 {
+    font-style: italic;
+    margin: 5px;
+}
+
+.definition {
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.noun button {
+    width: 80px;
+    margin-top: 20px;
+    font-weight: bold;
+    background-color: #fe6;
+    color: #000;
+    box-shadow: 3px 3px black;
+    padding: 5px;
+}
+
+.noun button:hover {
+    width: 80px;
+    margin-top: 20px;
+    color: #000;
+    background-color: rgb(253, 224, 0);
+    cursor: pointer;
+}
+
+.noun button:active {
+    width: 80px;
+    margin-top: 20px;
+    background-color: #fe6;
+    box-shadow: none;
+    padding: 5px;
+    transform: translate3d(2px,2px,1px);
+    cursor: pointer;
+}
+/* Content Above */
+
+/* Aside Below */
+aside{
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.event-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #000;
+    margin: 20px 0px;
+    padding: 20px 5px 20px 5px;
+}
+
+.event-card p {
+    width: 200px;
+    font-size: 22px;
+}
+
+.event-card p strong {
+    font-size: 25px;
+}
+
+.event-card button {
+    width: 200px;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: #9c8;
+    color: #000;
+    box-shadow: 3px 3px black;
+    padding: 5px;
+}
+
+.event-card button:hover {
+    width: 200px;
+    margin-top: 20px;
+    color: #000;
+    background-color: rgb(101, 191, 72);
+    cursor: pointer;
+}
+
+.event-card button:active {
+    width: 200px;
+    margin-top: 20px;
+    background-color: #9c8;
+    box-shadow: none;
+    padding: 5px;
+    transform: translate3d(2px,2px,1px);
+    cursor: pointer;
+}
+/* Aside Above */
