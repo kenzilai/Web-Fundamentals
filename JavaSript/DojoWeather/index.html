@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comic+Neue">
+    <link rel="stylesheet" href="style.css">
+    <title>DojoWeather</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1><a href="#">DojoWeather</a></h1>
+            <ul>
+                <li onclick="city(this)"><a href="#">Burbank</a></li>
+                <li onclick="city(this)"><a href="#">Chicago</a></li>
+                <li onclick="city(this)"><a href="#">Dallas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="current-location">
+            <h2>San Jose</h2>
+            <form>
+                <label>show temperature in</label>
+                <select onchange="changeTemperature(this)">
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+            </form>
+        </section>
+        <section class="weather-card">
+            <article>
+                <h3>Today</h3>
+                <img src="images/some_rain.png" alt="Weather Image">
+                <p>some rain</p>
+                <div>
+                    <p id="temp1" class="hotest">24°</p>
+                    <p id="temp2" class="coldest">18°</p>
+                </div>
+            </article>
+            <article>
+                <h3>Tomorrow</h3>
+                <img src="images/some_sun.png" alt="Weather Image">
+                <p>some sun</p>
+                <div>
+                    <p id="temp3" class="hotest">27°</p>
+                    <p id="temp4" class="coldest">19°</p>
+                </div>
+            </article>
+            <article>
+                <h3>Friday</h3>
+                <img src="images/some_clouds.png" alt="Weather Image">
+                <p>some clouds</p>
+                <div>
+                    <p id="temp5" class="hotest">21°</p>
+                    <p id="temp6" class="coldest">16°</p>
+                </div>
+            </article>
+            <article>
+                <h3>Saturday</h3>
+                <img src="images/some_sun.png" alt="Weather Image">
+                <p>some sun</p>
+                <div>
+                    <p id="temp7" class="hotest">26°</p>
+                    <p id="temp8" class="coldest">21°</p>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section class="cookie">
+            <img src="images/cookie.png" alt="Cookie">
+            <div>
+                <h3>Stop! Cookie time</h3>
+                <p>
+                    We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic.
+                    <a href="#">Read more...</a>
+                </p>
+            </div>
+            <button onclick="dismissCookie(this)">I Accept</button>
+        </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

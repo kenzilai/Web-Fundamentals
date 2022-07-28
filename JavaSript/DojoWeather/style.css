@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Comic Neue", sans-serif;
+    font-weight: bold;
+    width: auto;
+    position: relative;
+}
+
+/* Navbar Below */
+header {
+    position: sticky;
+    top: 0px;
+    background-color: #acf;
+    padding: 10px;
+    height: 40px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+    margin: 0px auto;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav h1 {
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 20px;
+}
+/* Navbar Above */
+
+/* Current Location Below */
+.current-location {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+    margin: 0px auto;
+    border-bottom: 2px solid black;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+/* Current Location Above */
+
+/* Weather Card Below */
+.weather-card {
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.weather-card article {
+    width: 130px;
+    background-color: #ddd;
+    text-align: center;
+}
+
+.weather-card h3,p {
+    margin: 10px;
+}
+
+.weather-card article img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.weather-card div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hotest {
+    color: #d32;
+}
+
+.coldest {
+    color: #38e;
+}
+/* Weather Card Above */
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+/* Cookie Message Below */
+.cookie {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    background-color: #ddd;
+    border: 3px solid #000;
+    width: 573px;
+    height: 70px;
+    padding: 10px;
+}
+
+.cookie img {
+    width: 50px;
+    height: 50px;
+}
+
+.cookie p {
+    margin-top: 0px;
+}
+
+.cookie h3 {
+    margin: 10px 10px 0px;
+}
+
+.cookie button {
+    width: 160px;
+    background-color: #acf;
+    box-shadow: 3px 3px #000;
+    margin-right: 10px;
+    padding: 2px;
+}
+
+.cookie button:hover {
+    width: 160px;
+    background-color: rgb(98, 161, 255);
+    cursor: pointer;
+}
+
+.cookie button:active {
+    width: 160px;
+    background-color: #acf;
+    box-shadow: none;
+    transform: translate3d(5px, 5px, 1px);
+    cursor: pointer;
+}
+/* Cookie Message Above */
